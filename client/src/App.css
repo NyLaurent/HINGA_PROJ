@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200&family=Poppins:wght@500&family=Protest+Strike&family=Rubik+Burned&family=Single+Day&family=Ubuntu:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+:root{
+
+    --primaryColor:hsl(94,55%,56%);
+    --hoverColor:hsl(93,75%,76%);
+}
