@@ -1,4 +1,10 @@
 import './App.css'
+import Dashboard from './Components/Dashboard/Dashboard'
+import Login from './Components/Login/login'
+import Register from './Components/Register/Register'
+
+
+
 
 
 function App() {
@@ -6,7 +12,9 @@ function App() {
 
   return (
     <div>
-App
+<Dashboard/>
+<Login/>
+<Register/>
     </div>
   )
     
