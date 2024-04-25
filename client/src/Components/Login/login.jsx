@@ -19,10 +19,10 @@ const login = () => {
           <p>Adopt the peace of nature !</p>
         </div>
         <div className="footerDiv" flex>
-          <span className='text'>Don't have an account</span>
+          <span className='text'>Don't have an account ?</span>
 
                 <Link to={'/register'}>
-                <button className='btn'>SignUp
+                <button className='btn2'>SignUp
                   </button>
                   </Link>
 
@@ -36,7 +36,7 @@ const login = () => {
 
   </div>
   <form action="" className='form grid'>
-    <span>Login Status will go here</span>
+    <span className='showMessage'>Login Status will go here</span>
 
 
     <div className="inputDiv">
