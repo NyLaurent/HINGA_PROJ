@@ -212,7 +212,7 @@ video {
         .formDiv{
             flex-basis: 50%;
             margin: auto;
-           margin-top: -12px;
+           margin-top: -10px;
             flex-direction: column;
             gap: 1.5rem;
             transform: translateY(-1rem);
@@ -222,8 +222,8 @@ video {
             padding: 1.5rem 0;
         }
         img{
-            width: 90px;
-            padding-bottom: .5rem;
+            width: 80px;
+            padding-bottom: .2rem;
         }
         h3{
             font-size: 25px;
