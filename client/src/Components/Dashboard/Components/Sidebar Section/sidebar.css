@@ -140,6 +140,13 @@
       border-radius: 50%;
       opacity: .7;
     }
+    .circle1{
+      height: 100px;
+      width: 100px;
+      top: -50px;
+      left: -50px;
+
+    }
 
   }
 
