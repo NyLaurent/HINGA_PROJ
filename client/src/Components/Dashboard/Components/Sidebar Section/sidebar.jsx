@@ -6,6 +6,7 @@ import { IoMdSpeedometer } from "react-icons/io";
 import { MdDeliveryDining } from "react-icons/md";
 import { MdOutlineExplore } from "react-icons/md";
 import { BsTrophyFill } from "react-icons/bs";
+import { BsQuestionCircle } from "react-icons/bs";
 
 
 
@@ -120,6 +121,25 @@ const Sidebar = () => {
           </li>
 
         </ul>
+
+      </div>
+
+
+      <div className="sideBarCard">
+      <BsQuestionCircle className='icon'/>
+      <div className="cardContent">
+        <div className="circle1"></div>
+        <div className="circle1"></div>
+
+
+        <h3>Help Center</h3>
+        <p>Having trouble in Planti, please contact us from for more
+          questions.
+        </p>
+        <button className='btn'>Go to help center</button>
+
+
+      </div>
 
       </div>
     </div>
