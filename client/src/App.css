@@ -345,3 +345,12 @@ video {
 .img3{
     width: 200px;
 }
+
+
+/* Hiding the scroll thumb*/
+
+
+::-webkit-scrollbar{
+    display: none;
+
+}
