@@ -315,7 +315,33 @@ video {
 }
 }
 
+/* Dashboard codes*/
+
+
+.body1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+}
 
 
 
+.coco{
+    position: relative;
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bgColor);
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 8px var(--greyText);
+}
 
+
+.img3{
+    width: 200px;
+}
