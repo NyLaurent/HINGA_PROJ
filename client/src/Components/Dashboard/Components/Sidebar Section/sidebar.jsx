@@ -69,6 +69,59 @@ const Sidebar = () => {
         </ul>
 
       </div>
+
+      <div className="settingsDiv">
+        <h3 className="divTitle">
+          SETTINGS
+        </h3>
+        <ul className="menuLists grid">
+          <li className="className">
+            <a href="#" className='menuLink flex'>
+            <IoMdSpeedometer className='icon'/>
+            <span className='smallText'>
+        Charts
+            </span>
+               
+            </a>
+          </li>
+
+          <li className="className">
+            <a href="#" className='menuLink flex'>
+            <MdDeliveryDining className='icon'/>
+            <span className='smallText'>
+            Trends
+            </span>
+
+           
+              
+            </a>
+          </li>
+
+          <li className="className">
+            <a href="#" className='menuLink flex'>
+            <MdOutlineExplore className='icon'/>
+            <span className='smallText'>
+           Explore
+            </span>
+           
+              
+            </a>
+          </li>
+
+         <li className="className">
+            <a href="#" className='menuLink flex'>
+            <BsTrophyFill className='icon'/>
+            <span className='smallText'>
+            Trends
+            </span>
+           
+              
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
     </div>
   )
 }
