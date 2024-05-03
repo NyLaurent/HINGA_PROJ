@@ -1,0 +1,245 @@
+:root {
+    --primaryColor: hsl(94, 55%, 56%);
+    --hoverColor: hsl(93, 75%, 76%);
+    --paleGreen: hsl(96, 75%, 89%);
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(0, 0%, 18%);
+    --text-color: hsl(240, 1%, 48%);
+    --greyText: hsl(0, 0%, 75%);
+    --bgColor: hsl(113, 11%, 85%);
+    --inputColor: hsl(330, 12%, 97%);
+    /* --inputColor: hsl(154,14%,90%); */
+
+    /* fonts and typography */
+    --biggestFontSize: 2.5rem;
+    --h1FontSize: 1.5rem;
+    --h2FontSize: 1.25rem;
+    --h3FontSize: 1rem;
+    --normalFontSize: 0.938rem;
+    --smallFontSize: 0.813rem;
+    --smallestFontSize: 0.75rem;
+}
+
+.topSection {
+    .headerSection {
+        justify-content: space-between;
+
+        .title {
+            h1 {
+                font-size: var(--h1FontSize);
+                color: var(--blackColor);
+                font-weight: 700;
+            }
+
+            p {
+                font-size: var(--normalFontSize);
+                color: var(--text-color);
+                font-weight: 500;
+            }
+        }
+
+        .searchBar {
+            padding: 1rem 2rem;
+            background: var(--whiteColor);
+            border-radius: 5px;
+            gap: 1rem;
+            box-shadow: 0 2px 4px var(--inputColor);
+
+            input {
+                border: none;
+                outline: none;
+                background: none;
+            }
+
+            icon {
+                color: var(--text-color);
+
+                &:hover {
+                    color: var(--primaryColor);
+                }
+            }
+        }
+
+        .adminDiv {
+            gap: 1rem;
+
+            .icon {
+                font-size: var(--biggestFontSize);
+                background: var(--whiteColor);
+                border-radius: 5px;
+                padding: 5px;
+                box-shadow: 0 2px 4px var(--inputColor);
+                color: var(--text-color);
+            }
+
+            .adminImage {
+                border: 3px solid var(--whiteColor);
+                border-radius: 10px;
+                width: 2.5rem;
+                overflow: hidden;
+                box-shadow: 0 2px 4px var(--inputColor);
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+
+.cardSection {
+    margin-top: 3rem;
+    gap: 1rem;
+
+    .rightCard {
+        position: relative;
+        flex-basis: 70%;
+        height: 200px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: auto;
+        padding: 2rem;
+        border-radius: 1rem;
+        overflow: hidden;
+
+        .videoDiv{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+
+            video{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+
+
+        h1,p .btn2{
+            z-index: 100;
+
+        }
+        h1{
+            font-size: var(--h1FontSize);
+            color: var(--whiteColor);
+            font-weight: 800;
+        }
+        p{
+            padding: 1rem;
+            color: var(--paleGreen);
+            font-weight: 500;
+
+        }
+        .buttons2{
+            gap: 1rem;
+            z-index: 1000;
+
+            .btn2{
+                box-shadow: none;
+                z-index: 1000;
+                padding: .8rem 1.5rem;
+                color: var(--primaryColor);
+               border: 2px solid transparent;
+               
+            }
+            .btn{
+                box-shadow: none;
+                z-index: 1000;
+                padding: .8rem 1.5rem;
+                color: var(--primaryColor);
+               border: 1.5px solid var(--whiteColor);
+               background: var(--whiteColor);
+               
+
+            }
+            .transparent{
+                background: none;
+                border: 2px solid var(--paleGreen);
+                color: var(--paleGreen);
+
+                &:hover{
+                    background: var(--paleGreen);
+                    color: var(--primaryColor);
+                }
+            }
+        }
+
+    }
+
+    .leftCard{
+        flex-basis: 50%;
+        .main{
+            position: relative;
+            padding: 1rem;
+            height: 200px;
+            border-radius: 1rem;
+            justify-content: space-between;
+
+            &::before{
+                content: '';
+                position: absolute;
+                height: 100%;
+                width:100%;
+                background: var(--paleGreen);
+                left: 0;
+                bottom: 0;
+                border-radius: 1rem;
+            }
+            .textDiv{
+                z-index: 100;
+
+                h1{
+                    font-size: var(--h1FontSize);
+                    padding-bottom: 1rem;
+                    color: var(--blackColor);
+
+
+                }
+                .flex{
+                    gap: 1.5rem;
+                    font-weight: 500;
+                    color: var(--blackColor);
+
+
+                    small{
+                        font-size: var(--normalFontSize);
+                        display: block;
+                        color: var(--primaryColor);
+                        font-weight: 500;
+                        padding: .5rem 0;
+                    }
+                }
+                .link{
+                    margin-top: 2rem;
+                    cursor: pointer;
+
+                    &:hover{
+                        color: var(--primaryColor);
+                        .icon{
+                            transform: translateX(10px);
+                            transition: .3 ease;
+                        }
+                    }
+
+                }
+
+            }
+            .imgDiv{
+                transform: translateZ(-20px);
+
+                img{
+                    width: 200px;
+                }
+            }
+
+        }
+
+    }
+}
