@@ -20,6 +20,7 @@ const login = () => {
         </div>
         <div className="footerDiv" flex>
           <span className='text'>Don't have an account ?</span>
+        
 
                 <Link to={'/register'}>
                 <button className='btn2'>SignUp
