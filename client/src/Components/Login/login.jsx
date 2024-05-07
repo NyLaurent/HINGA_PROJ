@@ -48,7 +48,7 @@ const login = () => {
       </div>
     </div>
 
-    <div className="inputDiv">
+    <div className="inputDiv"> 
       <label htmlFor="Password">Password</label>
       <div className="input flex">
       <BsFillShieldLockFill className='icon'/>
