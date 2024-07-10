@@ -2,11 +2,9 @@ import './App.css'
 import Dashboard from './Components/Dashboard/Dashboard'
 import Login from './Components/Login/login'
 import Register from './Components/Register/Register'
+import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 
-import {
-  createBrowserRouter,
-  RouterProvider
-}from 'react-router-dom'
+
 
 //creating routes
 const router =createBrowserRouter([
@@ -31,8 +29,8 @@ function App() {
 
   return (
     <div>
+ <RouterProvider router={router}/>
 
-<RouterProvider router={router}/>
     </div>
   )
     
