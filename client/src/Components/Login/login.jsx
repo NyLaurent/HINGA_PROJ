@@ -1,4 +1,4 @@
-import React from 'react'
+
 import  './login.css'
 import '../../App.css'
 import video from '../../LoginAssets/video.mp4'
